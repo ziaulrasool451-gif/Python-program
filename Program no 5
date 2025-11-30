@@ -1,0 +1,16 @@
+animals = {
+    "Dog": "Bark",
+    "Cat": "Meow",
+    "Cow": "Moo",
+    "Sheep": "Baa",
+    "Duck": "Quack"
+}
+
+for animal in animals:
+    print(animal, "makes:", animals[animal])
+Output::
+Dog makes: Bark
+Cat makes: Meow
+Cow makes: Moo
+Sheep makes: Baa
+Duck makes: Quack
