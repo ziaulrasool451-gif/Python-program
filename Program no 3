@@ -1,0 +1,16 @@
+movies = {
+    "Tiger 3": 2023,
+    "Marjavan": 2019,
+    "Titanic": 1997,
+    "Pathan": 2024,
+    "Chal mera putt 4": 2025
+}
+
+for movie in movies:
+    print("Release year of", movie, "is:", movies[movie])
+Output::
+Release year of Tiger 3 is: 2023
+Release year of Marjavan is: 2019
+Release year of Titanic is: 1997
+Release year of Pathan is: 2024
+Release year of Chal mera putt 4 is: 2025
