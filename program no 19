@@ -1,0 +1,13 @@
+actors = {
+    "Leonardo DiCaprio": 50,
+    "Tom Hanks": 80,
+    "Meryl Streep": 70,
+    "Robert De Niro": 90,
+    "Scarlett Johansson": 60
+}
+actors["Denzel Washington"] = 55
+print("19. Actors and movie counts (after adding one):")
+print(actors)
+Output::
+19. Actors and movie counts (after adding one):
+{'Leonardo DiCaprio': 50, 'Tom Hanks': 80, 'Meryl Streep': 70, 'Robert De Niro': 90, 'Scarlett Johansson': 60, 'Denzel Washington': 55}
