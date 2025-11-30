@@ -1,0 +1,17 @@
+mobiles = {
+    "Apple": "iPhone 14 Pro",
+    "Samsung": "Galaxy S23 Ultra",
+    "OnePlus": "OnePlus 11",
+    "Xiaomi": "Mi 11",
+    "Google": "Pixel 7"
+    }
+print("22. Mobile brands and top models:")
+print(mobiles)
+if "Samsung" in mobiles:
+    print("Samsung exists in the dictionary.")
+else:
+    print("Samsung does not exist in the dictionary.")
+Output::
+22. Mobile brands and top models:
+{'Apple': 'iPhone 14 Pro', 'Samsung': 'Galaxy S23 Ultra', 'OnePlus': 'OnePlus 11', 'Xiaomi': 'Mi 11', 'Google': 'Pixel 7'}
+Samsung exists in the dictionary.
