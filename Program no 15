@@ -1,0 +1,16 @@
+friends = {
+    "Hamza": "10 Feb 2005",
+    "Suffyan": "21 July 2003",
+    "Adnan": "5 Nov 2001",
+    "ZIA": "30 Mar 2007",
+    "Abbas": "12 Sep 2003"
+}
+
+for friend in friends:
+    print(friend, "has birthday on:", friends[friend])
+Output::
+Hamza has birthday on: 10 Feb 2005
+Suffyan has birthday on: 21 July 2003
+Adnan has birthday on: 5 Nov 2001
+ZIA has birthday on: 30 Mar 2007
+Abbas has birthday on: 12 Sep 2003
