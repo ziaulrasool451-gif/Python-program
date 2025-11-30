@@ -1,0 +1,17 @@
+currencies = {
+    "USA": "US Dollar",
+    "Pakistan": "Pakistani Rupee",
+    "Japan": "Yen",
+    "UK": "Pound Sterling",
+    "Germany": "Euro"
+}
+print("14. Countries and currencies:")
+print(currencies)
+if "India" in currencies:
+    print("India is included.")
+else:
+    print("India is not included.")
+Output::
+14. Countries and currencies:
+{'USA': 'US Dollar', 'Pakistan': 'Pakistani Rupee', 'Japan': 'Yen', 'UK': 'Pound Sterling', 'Germany': 'Euro'}
+India is not included.
