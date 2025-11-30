@@ -1,0 +1,14 @@
+users = {
+    "user1": "pass123",
+    "alex": "alex2020",
+    "maria": "m@ria!",
+    "zia": "zia_pwd",
+    "john": "johnpass"
+}
+# update password of zia
+users["zia"] = "new_zia_pwd"
+print("6. Usernames and passwords (after update):")
+print(users)
+Output::
+6. Usernames and passwords (after update):
+{'user1': 'pass123', 'alex': 'alex2020', 'maria': 'm@ria!', 'zia': 'new_zia_pwd', 'john': 'johnpass'}
