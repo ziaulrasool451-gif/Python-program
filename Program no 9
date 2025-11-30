@@ -1,0 +1,12 @@
+laptops = {
+    "Dell": "XPS13-9310",
+    "HP": "Spectre-13",
+    "Lenovo": "ThinkPad-X1"
+}
+# modify HP model number
+laptops["HP"] = "Envy-13"
+print("9. Laptops and model numbers (after modification):")
+print(laptops)
+Output::
+9. Laptops and model numbers (after modification):
+{'Dell': 'XPS13-9310', 'HP': 'Envy-13', 'Lenovo': 'ThinkPad-X1'}
