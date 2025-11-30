@@ -1,0 +1,14 @@
+cars = {
+    "Model S": "Tesla",
+    "Civic": "Honda",
+    "Corolla": "Toyota",
+    "Mustang": "Ford",
+    "A4": "Audi"
+}
+# update company of 'Model S' for example (to show change)
+cars["Model S"] = "Tesla, Inc."
+print("12. Cars and companies (after update):")
+print(cars)
+Output::
+12. Cars and companies (after update):
+{'Model S': 'Tesla, Inc.', 'Civic': 'Honda', 'Corolla': 'Toyota', 'Mustang': 'Ford', 'A4': 'Audi'}
