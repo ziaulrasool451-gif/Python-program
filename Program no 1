@@ -1,0 +1,17 @@
+books = {
+    "To Kill a Mockingbird": "Harper Lee",
+    "1984": "George Orwell",
+    "Pride and Prejudice": "Jane Austen",
+    "The Alchemist": "Paulo Coelho",
+    "The Great Gatsby": "F. Scott Fitzgerald"
+}
+
+book_name = input("Enter book name: ")
+
+if book_name in books:
+    print("Author:", books[book_name])
+else:
+    print("Book not found.")
+Output::
+Enter book name: To Kill a Mockingbird
+Author: Harper Lee
