@@ -1,0 +1,16 @@
+words = {
+    "brave": "showing courage",
+    "ancient": "very old",
+    "glimpse": "a quick look",
+    "rare": "not common",
+    "victory": "success in a battle or competition"
+}
+
+for word in words:
+    print(word, "means:", words[word])
+Output::
+brave means: showing courage
+ancient means: very old
+glimpse means: a quick look
+rare means: not common
+victory means: success in a battle or competition
