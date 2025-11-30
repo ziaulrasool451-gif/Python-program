@@ -1,0 +1,16 @@
+planets = {
+    "Mercury": 57.9,
+    "Venus": 108.2,
+    "Earth": 149.6,
+    "Mars": 227.9,
+    "Jupiter": 778.3
+}
+
+for planet in planets:
+    print("Distance of", planet, "from the Sun is:", planets[planet], "million km")
+Output::
+Distance of Mercury from the Sun is: 57.9 million km
+Distance of Venus from the Sun is: 108.2 million km
+Distance of Earth from the Sun is: 149.6 million km
+Distance of Mars from the Sun is: 227.9 million km
+Distance of Jupiter from the Sun is: 778.3 million km
