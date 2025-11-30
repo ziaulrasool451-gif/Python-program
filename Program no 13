@@ -1,0 +1,13 @@
+meals = {
+    "Burger": 550,
+    "Salad": 150,
+    "Pizza slice": 300,
+    "Pasta": 400,
+    "Grilled Chicken": 250
+}
+meals["Sushi"] = 200
+print("13. Meals and calories (after adding Sushi):")
+print(meals)
+Output::
+13. Meals and calories (after adding Sushi):
+{'Burger': 550, 'Salad': 150, 'Pizza slice': 300, 'Pasta': 400, 'Grilled Chicken': 250, 'Sushi': 200}
