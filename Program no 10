@@ -1,0 +1,16 @@
+players = {
+    "Ronaldo": 95,
+    "Messi": 97,
+    "Neymar": 90,
+    "Mbappe": 92,
+    "Salah": 89
+}
+
+for player in players:
+    print(player, "score is", players[player])
+Output::
+Ronaldo score is 95
+Messi score is 97
+Neymar score is 90
+Mbappe score is 92
+Salah score is 89
