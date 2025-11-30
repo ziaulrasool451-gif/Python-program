@@ -1,0 +1,13 @@
+teachers = {
+    "Mr. Khan": "Mathematics",
+    "Ms. Ahmed": "English",
+    "Mrs. Shah": "Physics",
+    "Mr. Ali": "History",
+    "Ms. Noor": "Chemistry"
+    }
+teachers["Mr. Khan"] = "Computer Science"
+print("21. Teachers and subjects (after change):")
+print(teachers)
+Output::
+21. Teachers and subjects (after change):
+{'Mr. Khan': 'Computer Science', 'Ms. Ahmed': 'English', 'Mrs. Shah': 'Physics', 'Mr. Ali': 'History', 'Ms. Noor': 'Chemistry'}
