@@ -1,0 +1,14 @@
+languages = {
+    "Spanish": "Spain",
+    "English": "United Kingdom",
+    "French": "France",
+    "Arabic": "Saudi Arabia",
+    "Urdu": "Pakistan"
+}
+
+languages["English"] = "United States"
+print("18. Languages and countries (after update):")
+print(languages)
+Output::
+18. Languages and countries (after update):
+{'Spanish': 'Spain', 'English': 'United States', 'French': 'France', 'Arabic': 'Saudi Arabia', 'Urdu': 'Pakistan'}
