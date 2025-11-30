@@ -1,0 +1,17 @@
+apps = {
+    "Instagram": 4.6,
+    "Facebook": 4.1,
+    "TikTok": 4.4,
+    "Snapchat": 4.0,
+    "Telegram": 4.5
+}
+print("8. Apps and ratings:")
+print(apps)
+if "WhatsApp" in apps:
+    print("WhatsApp is in the dictionary.")
+else:
+    print("WhatsApp is not in the dictionary.")
+Output::
+8. Apps and ratings:
+{'Instagram': 4.6, 'Facebook': 4.1, 'TikTok': 4.4, 'Snapchat': 4.0, 'Telegram': 4.5}
+WhatsApp is not in the dictionary.
