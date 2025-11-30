@@ -1,0 +1,13 @@
+fruits = {
+    "Apple": 120,
+    "Banana": 40,
+    "Mango": 200,
+    "Orange": 90,
+    "Grapes": 150
+}
+fruits["Pineapple"] = 250
+print("7. Fruits and prices (after adding Pineapple):")
+print(fruits)
+Output::
+7. Fruits and prices (after adding Pineapple):
+{'Apple': 120, 'Banana': 40, 'Mango': 200, 'Orange': 90, 'Grapes': 150, 'Pineapple': 250}
