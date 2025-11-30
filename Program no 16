@@ -1,0 +1,13 @@
+sports = {
+    "Football": 11,
+    "Basketball": 5,
+    "Tennis": 1,
+    "Cricket": 11,
+    "Badminton": 2
+   } 
+sports["Tennis"] = 2
+print("16. Sports and players required (after modification):")
+print(sports)
+Output::
+16. Sports and players required (after modification):
+{'Football': 11, 'Basketball': 5, 'Tennis': 2, 'Cricket': 11, 'Badminton': 2}
