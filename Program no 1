@@ -6,12 +6,11 @@ books = {
     "The Great Gatsby": "F. Scott Fitzgerald"
 }
 
-book_name = input("Enter book name: ")
-
-if book_name in books:
-    print("Author:", books[book_name])
-else:
-    print("Book not found.")
+for book in books:
+    print("Author of", book, "is:", books[book])
 Output::
-Enter book name: To Kill a Mockingbird
-Author: Harper Lee
+Author of To Kill a Mockingbird is: Harper Lee
+Author of 1984 is: George Orwell
+Author of Pride and Prejudice is: Jane Austen
+Author of The Alchemist is: Paulo Coelho
+Author of The Great Gatsby is: F. Scott Fitzgerald
