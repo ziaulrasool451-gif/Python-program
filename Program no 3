@@ -1,0 +1,10 @@
+employees = {
+    "Ali": 50000,
+    "Sara": 60000,
+    "Hamid": 55000}
+employees["Sara"] = 65000
+print("2. Employees and salaries (after change):")
+print(employees)
+Output:
+2. Employees and salaries (after change):
+{'Ali': 50000, 'Sara': 65000, 'Hamid': 55000}
