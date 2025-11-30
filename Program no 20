@@ -1,0 +1,16 @@
+songs = {
+    "Afreen Afreen": "5:15",
+    "Tajdar-e-Haram": "6:50",
+    "Coke Studio Season 14 - Pasoori": "4:30",
+    "Dil Diyan Gallan": "4:05",
+    "Billo De Ghar": "3:40"
+}
+
+for song in songs:
+    print("Duration of", song, "is:", songs[song])
+Output::
+Duration of Afreen Afreen is: 5:15
+Duration of Tajdar-e-Haram is: 6:50
+Duration of Coke Studio Season 14 - Pasoori is: 4:30
+Duration of Dil Diyan Gallan is: 4:05
+Duration of Billo De Ghar is: 3:40
