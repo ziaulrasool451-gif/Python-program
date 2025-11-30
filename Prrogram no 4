@@ -1,0 +1,17 @@
+subjects = {
+    "English": 85,
+    "Physics": 78,
+    "Chemistry": 82,
+    "Biology": 74,
+    "History": 88
+}
+print("4. Subjects and marks:")
+print(subjects)
+if "Math" in subjects:
+    print("Math exists.")
+else:
+    print("Math does not exist.")
+Output::
+4. Subjects and marks:
+{'English': 85, 'Physics': 78, 'Chemistry': 82, 'Biology': 74, 'History': 88}
+Math does not exist.
